@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../../assets/fonts/flaticon.ttf?066c6bf9438a8b89b527b27a0e087613") format("truetype"),
+url("../../assets/fonts/flaticon.woff?066c6bf9438a8b89b527b27a0e087613") format("woff"),
+url("../../assets/fonts/flaticon.woff2?066c6bf9438a8b89b527b27a0e087613") format("woff2"),
+url("../../assets/fonts/flaticon.eot?066c6bf9438a8b89b527b27a0e087613#iefix") format("embedded-opentype"),
+url("../../assets/fonts/flaticon.svg?066c6bf9438a8b89b527b27a0e087613#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-straight-quotes:before {
+    content: "\f101";
+}
+.flaticon-ad-campaign:before {
+    content: "\f102";
+}
+.flaticon-play-button:before {
+    content: "\f103";
+}
+.flaticon-public-relations:before {
+    content: "\f104";
+}

@@ -1,0 +1,54 @@
+{
+    "name": "joggapp/laravel-google-translate",
+    "description": "Laravel package for the Google Translate API",
+    "keywords": [
+        "laravel",
+        "package",
+        "google",
+        "translate",
+        "google translate",
+        "api"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harish Toshniwal",
+            "email": "harish@jogg.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JoggApp\\GoogleTranslate\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "google/cloud-translate": "^1.2",
+        "illuminate/support": "9.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench" : "7.*",
+        "phpunit/phpunit": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+            ],
+            "aliases":{
+                "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
