@@ -1,2 +1,2 @@
-# brizdeck
+# Brizdeck
 Digital Marketing Agency Website ( Laravel )
